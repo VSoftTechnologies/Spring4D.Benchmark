@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "id": "Spring4D.Benchmark",
+    "version": "0.2.0",
+    "description": "A powerful benchmarking library for Delphi (ported from Google Benchmark)",
+    "authors": "Vincent Parrett",
+    "projectUrl": "https://github.com/spring4d/benchmark",
+    "license": "Apache-2.0",
+    "copyright": "Spring4D Team",
+    "tags": "Benchmark Performance"
+  },
+  "targetPlatforms": [
+    {
+      "compiler": "XE7",
+      "platforms": "Win32, Win64",
+      "template": "default"
+    },
+    {
+      "compiler": "XE8",
+      "platforms": "Win32, Win64",
+      "template": "default"
+    },
+    {
+      "compiler": "10.0",
+      "platforms": "Win32, Win64",
+      "template": "default"
+    },
+    {
+      "compiler": "10.1",
+      "platforms": "Win32, Win64",
+      "template": "default"
+    },
+    {
+      "compiler": "10.2",
+      "platforms": "Win32, Win64",
+      "template": "default"
+    },
+    {
+      "compiler": "10.3",
+      "platforms": "Win32, Win64",
+      "template": "default"
+    },
+    {
+      "compiler": "10.4",
+      "platforms": "Win32, Win64",
+      "template": "default"
+    },
+    {
+      "compiler": "11.0",
+      "platforms": "Win32, Win64",
+      "template": "default"
+    },
+    {
+      "compiler": "12.0",
+      "platforms": "Win32, Win64",
+      "template": "default"
+    }
+  ],
+  "templates": [
+    {
+      "name": "default",
+      "source": [
+        {
+          "src": "Spring.Benchmark.pas",
+          "dest": "source"
+        }
+      ],
+      "searchPaths": [
+        {
+          "path": "source"
+        }
+      ]
+    }
+  ]
+}
